@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.sing-up {
+    background-color: white;
+}
+
+.icon-input {
+    display: flex;
+    align-items: center;
+}
+
+.icon-input img {
+    position: absolute;
+    right: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.icon-input input {
+    padding-right: 50px;
+}
+
+.sign-up-form {
+    margin-top: 30px;
+}
+
+.sign-up-form label {
+    font-weight: bold;
+}
+
+.sign-up-box {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0px 0;
+}
+
+
+@media only screen and (max-width: 770px) {
+    .sign-up-box {
+        margin: 130px 0 0 0;
+    }
+}
+
+
+@media only screen and (max-width: 575px) {
+    .sign-up-box {
+        margin: 130px 0 0 0;
+        padding: 30px;
+    }
+}
+
+.error {
+    color: red;
+    height: 25px;
+    margin: 0;
+}
+
+label {
+    margin: 0;
+}
