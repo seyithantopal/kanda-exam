@@ -1,4 +1,4 @@
-# kanda-exam
+# signup-form-validation
 
 Run `npm install`
 
